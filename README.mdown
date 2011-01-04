@@ -1,11 +1,11 @@
 AFCircularGestureRecognizer
 =============
 
-[AFCircularGestureRecognizer](http://accidentalfish.wordpress.com/) is an [UIGestureRegocnizer](http://developer.apple.com/iphone/library/documentation/uikit/reference/UIGestureRecognizer_Class/Reference/Reference.html) subclass that detects a circular gesture.
+[AFCircularGestureRecognizer](http://accidentalfish.wordpress.com/2011/01/04/afcirculargesturerecognizer/) is an [UIGestureRegocnizer](http://developer.apple.com/iphone/library/documentation/uikit/reference/UIGestureRecognizer_Class/Reference/Reference.html) subclass that detects a circular gesture.
 
 The class allows for a gesture "corridor" to be defined by specifiying an inner and outer radius. If the user strays outside of the defined corridor then the gesture recognition is cancelled. The gesture is captured fairly coarsely just looking for a touch with each quarter of the circle. The recognizer makes no attempt to track the direction and allows backtracking.
 
-If you make use of this class or fork it then a comment on my [blog](http://accidentalfish.wordpress.com/) is appreciated - it's always fun to see where code is being used.
+If you make use of this class or fork it then a comment on my [blog](http://accidentalfish.wordpress.com/2011/01/04/afcirculargesturerecognizer/) is appreciated - it's always fun to see where code is being used.
 
 Example
 =======
